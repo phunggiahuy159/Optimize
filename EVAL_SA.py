@@ -181,7 +181,7 @@ class SimulatedAnnealing:
 N, Q, pred, d, M, s, K, c = read_input()
 
 solver = SimulatedAnnealing()
-state = solver.Solve(N, M, s, d, c, pred, time_limit=70)
+state = solver.Solve(N, M, s, d, c, pred, time_limit=70000000)
 
 # assigned_tasks = []
 # for task in range(1, N + 1):
